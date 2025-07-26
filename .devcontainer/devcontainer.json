@@ -15,6 +15,9 @@
             "authenticationType": "SqlLogin",
             "user": "student10",
             "password": "solveSQL!",
+            "savePassword": true,
+            "encrypt": "Mandatory",
+            "trustServerCertificate": true,
             "port": 1433
           }
         ]
