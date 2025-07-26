@@ -1,0 +1,26 @@
+{
+  "name": "SQL Student CodeSpace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:2",  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-mssql.mssql"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "mssql.connections": [
+          {
+            "server": "zomalex-sql.database.windows.net",
+            "database": "LearnSQL",
+            "authenticationType": "SqlLogin",
+            "user": "student10",
+            "password": "solveSQL!",
+            "port": 1433
+          }
+        ]
+      }
+    }
+  },
+  "forwardPorts": [1433],
+  "postCreateCommand": "echo 'Codespace ready with MSSQL extension installed.'"
+}
