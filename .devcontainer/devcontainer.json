@@ -25,5 +25,5 @@
     }
   },
   "forwardPorts": [1433],
-  "postCreateCommand": "echo 'Codespace ready with MSSQL extension installed.'"
+  "postCreateCommand": "mkdir -p /home/vscode/.vscode && echo '[{\"key\":\"f5\",\"command\":\"extension.sql.executeCurrentStatement\"}]' > /home/vscode/.vscode/keybindings.json"
 }
