@@ -14,7 +14,7 @@
             "database": "LearnSQL",
             "authenticationType": "SqlLogin",
             "user": "student10",
-            "password": "solveSQL!",
+            "password": "${PASSWORD}",
             "savePassword": true,
             "encrypt": "Mandatory",
             "trustServerCertificate": true,
