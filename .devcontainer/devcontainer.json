@@ -1,6 +1,6 @@
 {
-  "name": "SQL Student CodeSpace",
-  "image": "mcr.microsoft.com/vscode/devcontainers/universal:2",  
+  "name": "SQL Course",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  
   "customizations": {
     "vscode": {
       "extensions": [
@@ -24,5 +24,5 @@
     }
   },
   "forwardPorts": [1433],
-  "postCreateCommand": "mkdir -p /home/vscode/.vscode && echo '[{\"key\":\"f5\",\"command\":\"extension.sql.executeCurrentStatement\"}]' > /home/vscode/.vscode/keybindings.json"
+  "postCreateCommand": "echo 'Codespace ready for SQL course'"
 }
