@@ -1,6 +1,6 @@
 {
-  "name": "SQL Course",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  
+  "name": "SQL Student Course",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -16,13 +16,12 @@
             "user": "student10",
             "savePassword": true,
             "encrypt": "Mandatory",
-            "trustServerCertificate": true,
+            "trustServerCertificate": false,
             "port": 1433
           }
         ]
       }
     }
   },
-  "forwardPorts": [1433],
   "postCreateCommand": "echo 'Codespace ready for SQL course'"
 }
