@@ -30,21 +30,10 @@ The advanced course follows on from the intermediate course. It covers:
 * Window functions and their uses e.g., ratio calculations, cumulative totals, finding the top N items in each category and
 * creating and using tally tables
 
-## Setup
+## Note on licensing
 
-### Keybinding: Run SQL with F5
+© Mark Wilcock / Zomalex. This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 — CC BY-NC-SA 4.0.
 
-VS Code does not support workspace-level keybindings, so this must be set up manually. To bind F5 to **Execute Current Statement**:
+You may share and adapt this material for non-commercial purposes, provided you give appropriate credit, link to the licence, and indicate whether changes were made.
 
-1. Open the Command Palette (`Ctrl+Shift+P`) and search for **Preferences: Open Keyboard Shortcuts (JSON)**.
-1. Add the following entry to the array:
-
-```json
-{
-    "key": "f5",
-    "command": "mssql.executeCurrentStatement",
-    "when": "editorLangId == sql"
-}
-```
-
-1. Save the file. F5 will now execute the SQL statement at the cursor.
+For commercial licensing, training delivery, corporate use, or inclusion in paid products or services, contact <mark.wilcock@zomalex.co.uk>.
